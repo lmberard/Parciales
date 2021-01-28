@@ -12,3 +12,5 @@ Lenguaje: C
 3er parcial: CLA, Diccionarios, TDA, Archivos
 
 4to parcial: Listas, ordenamiento, punteros a funciones, recursion
+
+Compilar: gcc -o nombrearchivo nombrearchivo.c -Wall -pedantic -std=c99 -lm
