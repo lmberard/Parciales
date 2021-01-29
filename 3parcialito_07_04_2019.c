@@ -177,7 +177,7 @@ int main(int argc, char *argv[]){
 	if(strcmp(argv[1],ayuda) == 0){
 		fprintf(stdout, 
 			"Compilar el programa seguido del nombre del archivo binario\n./convertir nombre_archivo\n El archivo debe contener las estructuras de las personas para luego poder imprimirlas en formato CSV por stdout");
-		return 0;
+		return EXIT_FAILURE;
 	}
 	
 	f = fopen(argv[1], "rb");
